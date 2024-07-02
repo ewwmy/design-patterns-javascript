@@ -4,6 +4,9 @@
 
 - [Singleton](./singleton.js)
 - [Multiton](./multiton.js)
+- Factory Method
+  - [Simple](./factory-method-simple.js)
+  - [Dynamic](./factory-method-dynamic.js)
 
 ## Structural
 
