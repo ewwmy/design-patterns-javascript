@@ -4,6 +4,7 @@ class UIFactory {
   createButton() {
     throw new Error(ABSTRACT_METHOD_ERR)
   }
+  
   createInput() {
     throw new Error(ABSTRACT_METHOD_ERR)
   }
