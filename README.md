@@ -1,4 +1,4 @@
-# design-patterns-javascript
+# Design Patterns JavaScript
 
 ## Creational
 
@@ -7,6 +7,8 @@
 - Factory Method
   - [Simple Factory Method](./creational/factory-method-simple.js)
   - [Dynamic Factory Method](./creational/factory-method-dynamic.js)
+- [Abstract Factory](./creational/abstract-factory.js)
+  - [Abstract Factory Example](./creational/abstract-factory-example.js)
 
 ## Structural
 
