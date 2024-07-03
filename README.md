@@ -7,6 +7,7 @@
 - Factory Method
   - [Simple Factory Method](./creational/factory-method-simple.js)
   - [Dynamic Factory Method](./creational/factory-method-dynamic.js)
+- [Abstract Factory](./creational/abstract-factory.js)
 
 ## Structural
 
