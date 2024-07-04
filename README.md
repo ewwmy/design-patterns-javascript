@@ -12,6 +12,9 @@
 
 ## Structural
 
+- Adapter
+  - [Adapt **old feature** to the **new interface**](./structural/adapter.js)
+  - [Adapt **new feature** to the **old interface**](./structural/adapter-reverse.js)
 - Proxy
   - [Simple Proxy Usage](./structural/proxy-simple.js)
   - [Extended Proxy Usage](./structural/proxy-extended.js)
