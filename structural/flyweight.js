@@ -5,9 +5,6 @@ class Product {
     // internal state
     this._type = type
     this._color = color
-
-    // external state
-    this.serial = null
   }
 
   get type() {
@@ -26,8 +23,9 @@ class Product {
     throw new Error(INTERNAL_CHANGE_ERR)
   }
 
-  display() {
-    console.log(`[PRODUCT]: Type: ${this.type}; Color: ${this.color} | Serial: ${this.serial}`)
+  // display with some external data
+  display(serial) {
+    console.log(`[PRODUCT]: Type: ${this._type}; Color: ${this._color} | Serial: ${serial}`)
   }
 }
 
@@ -54,10 +52,6 @@ const product3 = factory.getProduct('Laptop', 'Blue')
 console.log(product1 === product2) // true
 console.log(product1 === product3) // false
 
-product1.serial = 'ABC-123'
-product2.serial = 'DEF-456'
-product3.serial = 'GHI-789'
-
-product1.display() // [PRODUCT]: Type: Phone; Color: Green | Serial: DEF-456
-product2.display() // [PRODUCT]: Type: Phone; Color: Green | Serial: DEF-456
-product3.display() // [PRODUCT]: Type: Laptop; Color: Blue | Serial: GHI-789
+product1.display('ABC-123') // [PRODUCT]: Type: Phone; Color: Green | Serial: ABC-123
+product2.display('DEF-456') // [PRODUCT]: Type: Phone; Color: Green | Serial: DEF-456
+product3.display('GHI-789') // [PRODUCT]: Type: Laptop; Color: Blue | Serial: GHI-789
