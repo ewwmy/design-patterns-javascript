@@ -21,6 +21,7 @@
   - [Built-in `Proxy` Object](./structural/proxy-builtin.js)
 - [Decorator](./structural/decorator.js)
 - [Facade](./structural/facade.js)
+- [Flyweight](./structural/flyweight.js)
 
 ## Behavioral
 
