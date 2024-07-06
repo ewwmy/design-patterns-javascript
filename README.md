@@ -20,6 +20,7 @@
   - [Extended Proxy Usage](./structural/proxy-extended.js)
   - [Built-in `Proxy` Object](./structural/proxy-builtin.js)
 - [Decorator](./structural/decorator.js)
+- [Facade](./structural/facade.js)
 
 ## Behavioral
 
