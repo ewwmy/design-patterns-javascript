@@ -30,3 +30,4 @@
   - [Example: Logger](./behavioral/chain-of-responsibility-logger.js)
 - [Command](./behavioral/command.js)
   - [Extended example](./behavioral/command-extended.js)
+- [Iterator](./behavioral/iterator.js)
