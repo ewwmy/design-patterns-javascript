@@ -1,14 +1,29 @@
 class Handler {
-  nextHandler = null
+  _nextHandler = null
+
+  get nextHandler() {
+    return this._nextHandler
+  }
+
+  set nextHandler(value) {
+    throw new Error('"nextHandler" property is not allowed to write to')
+  }
 
   setNext(handler) {
-    this.nextHandler = handler
+    if (!(handler instanceof Handler))
+      throw new Error(`The handler must be an instance of "Handler" class`)
+
+    this._nextHandler = handler
     return handler
   }
 
+  unsetNext() {
+    this._nextHandler = null
+  }
+
   handle(request) {
-    if (this.nextHandler) {
-      return this.nextHandler.handle(request)
+    if (this._nextHandler) {
+      return this._nextHandler.handle(request)
     }
     return null
   }
