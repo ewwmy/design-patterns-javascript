@@ -27,3 +27,5 @@
 
 ...
 
+- [Chain of Responsibility](./behavioral/chain-of-responsibility.js)
+  - [Example: Logger](./behavioral/chain-of-responsibility-logger.js)

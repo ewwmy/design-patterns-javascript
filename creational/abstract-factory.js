@@ -2,13 +2,13 @@
 
 class AbstractProductA {
   doSomething() {
-    throw new Error('This method should be overridden!')
+    throw new Error('This method should be overridden')
   }
 }
 
 class AbstractProductB {
   doSomethingElse() {
-    throw new Error('This method should be overridden!')
+    throw new Error('This method should be overridden')
   }
 }
 
@@ -42,11 +42,11 @@ class ConcreteProductB2 extends AbstractProductB {
 
 class AbstractFactory {
   createProductA() {
-    throw new Error('This method should be overridden!')
+    throw new Error('This method should be overridden')
   }
 
   createProductB() {
-    throw new Error('This method should be overridden!')
+    throw new Error('This method should be overridden')
   }
 }
 
