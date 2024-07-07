@@ -16,7 +16,7 @@ class ConcreteProductB extends Product {
 
 class Creator {
   createProduct() {
-    throw new Error('Method must be overridden in child class')
+    throw new Error('This method should be overridden')
   }
 }
 

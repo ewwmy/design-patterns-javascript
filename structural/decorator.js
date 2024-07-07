@@ -1,6 +1,6 @@
 class ICoffee {
   cost() {
-    throw new Error('The method must be implemented in child classes')
+    throw new Error('This method should be overridden')
   }
 }
 

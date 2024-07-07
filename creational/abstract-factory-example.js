@@ -1,4 +1,4 @@
-const ABSTRACT_METHOD_ERR = 'Method must be implemented in subclasses'
+const ABSTRACT_METHOD_ERR = 'This method should be overridden'
 
 class UIFactory {
   createButton() {
