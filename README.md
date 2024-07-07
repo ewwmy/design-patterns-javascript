@@ -25,8 +25,8 @@
 
 ## Behavioral
 
-...
-
 - [Chain of Responsibility](./behavioral/chain-of-responsibility.js)
   - [Extended example](./behavioral/chain-of-responsibility-extended.js)
   - [Example: Logger](./behavioral/chain-of-responsibility-logger.js)
+- [Command](./behavioral/command.js)
+  - [Extended example](./behavioral/command-extended.js)
