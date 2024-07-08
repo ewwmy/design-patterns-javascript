@@ -31,3 +31,5 @@
 - [Command](./behavioral/command.js)
   - [Extended example](./behavioral/command-extended.js)
 - [Iterator](./behavioral/iterator.js)
+- [Mediator](./behavioral/mediator.js)
+  - [Extended example](./behavioral/mediator-extended.js)
