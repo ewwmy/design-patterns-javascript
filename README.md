@@ -33,3 +33,5 @@
 - [Iterator](./behavioral/iterator.js)
 - [Mediator](./behavioral/mediator.js)
   - [Extended example](./behavioral/mediator-extended.js)
+- [Observer](./behavioral/observer.js)
+  - [Example](./behavioral/observer-example.js)
