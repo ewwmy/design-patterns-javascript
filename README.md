@@ -35,3 +35,4 @@
   - [Extended example](./behavioral/mediator-extended.js)
 - [Observer](./behavioral/observer.js)
   - [Example](./behavioral/observer-example.js)
+- [State](./behavioral/state.js)
