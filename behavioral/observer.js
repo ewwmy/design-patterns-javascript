@@ -26,7 +26,9 @@ class Observer {
   }
 
   update(data) {
-    console.log(`"${this.name}" recieved a notification: "${data}"`)
+    console.log(
+      `"${this.name}" recieved a notification: "${data}"`,
+    )
   }
 }
 
