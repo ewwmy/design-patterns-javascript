@@ -1,3 +1,11 @@
+/**
+ * Adapter
+ * 
+ * Adapter is a structural design pattern that allows objects with 
+ * incompatible interfaces to work together by wrapping the object 
+ * with an interface that the client expects.
+ */
+
 class OldPrinter {
   printOld() {
     return 'Old Printer'

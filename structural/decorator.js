@@ -1,3 +1,11 @@
+/**
+ * Decorator
+ * 
+ * Decorator is a structural design pattern that allows behavior to 
+ * be added to individual objects, either statically or dynamically, 
+ * without affecting the behavior of other objects from the same class.
+ */
+
 class ICoffee {
   cost() {
     throw new Error('This method should be overridden')

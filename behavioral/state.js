@@ -1,3 +1,11 @@
+/**
+ * State
+ * 
+ * State is a behavioral design pattern that allows an object to 
+ * change its behavior when its internal state changes, making the 
+ * object appear to change its class.
+ */
+
 class State {
   handle(context) {
     throw new Error('This method should be overridden')

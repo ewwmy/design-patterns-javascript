@@ -1,3 +1,10 @@
+/**
+ * Facade
+ * 
+ * Facade is a structural design pattern that provides a simplified 
+ * interface to a complex subsystem, making it easier to use.
+ */
+
 class Engine {
   start() {
     console.log('Двигатель запущен')

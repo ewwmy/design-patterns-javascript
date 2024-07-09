@@ -1,3 +1,12 @@
+/**
+ * Template Method
+ * 
+ * Template Method is a behavioral design pattern that defines the 
+ * skeleton of an algorithm in a method, allowing subclasses to 
+ * redefine certain steps of the algorithm without changing its 
+ * structure.
+ */
+
 class DocumentProcessor {
   // template method
   processDocument() {

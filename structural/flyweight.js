@@ -1,3 +1,12 @@
+/**
+ * Flyweight
+ * 
+ * Flyweight is a structural design pattern that allows programs to 
+ * support large numbers of objects efficiently by sharing common 
+ * parts of state between multiple objects. It reduces 
+ * memory usage by sharing as much data as possible.
+ */
+
 const INTERNAL_CHANGE_ERR = 'Changing internal state after the object creation is not allowed'
 
 class Product {

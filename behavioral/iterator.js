@@ -1,3 +1,11 @@
+/**
+ * Iterator
+ * 
+ * Iterator is a behavioral design pattern that provides a way to 
+ * access elements of a collection sequentially without exposing 
+ * its underlying representation.
+ */
+
 class MyCollection {
   items = []
 

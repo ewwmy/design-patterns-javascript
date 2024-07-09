@@ -1,3 +1,12 @@
+/**
+ * Strategy
+ * 
+ * Strategy is a behavioral design pattern that defines a family of 
+ * algorithms, encapsulates each one, and makes them interchangeable. 
+ * It allows the algorithm to vary independently from the clients 
+ * that use it.
+ */
+
 // strategy interface
 class Strategy {
   execute(a, b) {

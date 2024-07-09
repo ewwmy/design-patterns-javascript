@@ -1,3 +1,12 @@
+/**
+ * Chain of Responsibility
+ * 
+ * Chain of Responsibility is a behavioral design pattern that allows 
+ * a request to be passed along a chain of handlers. Each handler 
+ * decides whether to process the request or pass it to the next 
+ * handler in the chain.
+ */
+
 class Handler {
   nextHandler = null
 
