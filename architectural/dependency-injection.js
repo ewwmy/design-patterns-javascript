@@ -17,7 +17,7 @@ class UserService {
   }
 
   createUser(user) {
-    this.logger.log(`User created: ${user.name}`)
+    this.logger.log(`User created: "${user.name}"`)
     // additional user creation logic could be here
   }
 }
@@ -26,4 +26,4 @@ const logger = new Logger()
 const userService = new UserService(logger)
 
 userService.createUser({ name: 'John Doe' })
-// User created: John Doe
+// User created: "John Doe"
