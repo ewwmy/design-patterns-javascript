@@ -37,3 +37,8 @@
 - [Strategy](./behavioral/strategy.js)
   - [Example](./behavioral/strategy-example.js)
 - [Template Method](./behavioral/template-method.js)
+
+## Architectural
+
+- [Model-View-Controller (MVC)](./architectural/mvc.js)
+- [Hierarchical Model–View–Controller (HMVC)](./architectural/hmvc.js)
