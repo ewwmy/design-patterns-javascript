@@ -1,3 +1,12 @@
+/**
+ * Mediator
+ * 
+ * Mediator is a behavioral design pattern that lets you reduce
+ * coupling between components by encapsulating how they communicate.
+ * In this pattern, a mediator object takes control of the interactions
+ * between components.
+ */
+
 class Participant {
   constructor(name) {
     this.name = name

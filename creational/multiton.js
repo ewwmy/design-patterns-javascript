@@ -1,3 +1,11 @@
+/**
+ * Multiton
+ * 
+ * Multiton is a creational design pattern that ensures a class has 
+ * a limited number of instances and provides a global point of 
+ * access to these instances.
+ */
+
 class Multiton {
   static instances = {}
 

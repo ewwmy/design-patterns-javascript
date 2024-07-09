@@ -1,3 +1,12 @@
+/**
+ * Proxy
+ * 
+ * Proxy is a structural design pattern that provides a surrogate or 
+ * placeholder for another object, controlling access to it. It can 
+ * add additional behavior to the object being proxied, such as 
+ * lazy initialization, access control, logging, and more.
+ */
+
 class Foo {
   do() {
       return 'Foo: Doing something'
@@ -30,3 +39,7 @@ const foo = new Foo()
 const proxy = new ProxyFoo(foo)
 
 console.log(proxy.do())
+
+// Proxy Foo: Checking access
+// Proxy Foo: Access granted
+// Foo: Doing something

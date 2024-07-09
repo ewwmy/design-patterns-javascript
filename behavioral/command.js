@@ -1,3 +1,12 @@
+/**
+ * Command
+ * 
+ * Command is a behavioral design pattern that encapsulates a request 
+ * as an object, thereby allowing for parameterization of clients with 
+ * queues, requests, and operations. It helps in logging changes, 
+ * undoing commands, and structuring complex operations.
+ */
+
 // base command
 class Command {
   execute() {

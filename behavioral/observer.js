@@ -1,3 +1,13 @@
+/**
+ * Observer
+ * 
+ * Observer is a behavioral design pattern that lets you define
+ * a subscription mechanism to notify multiple objects about any events
+ * that occur to the object they're observing. In other words,
+ * it allows objects to be notified automatically
+ * of any changes in state of another object.
+ */
+
 // observable
 class Subject {
   observers = []
