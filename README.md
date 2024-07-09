@@ -38,3 +38,4 @@
 - [State](./behavioral/state.js)
 - [Strategy](./behavioral/strategy.js)
   - [Example](./behavioral/strategy-example.js)
+- [Template Method](./behavioral/template-method.js)
