@@ -42,3 +42,4 @@
 
 - [Model-View-Controller (MVC)](./architectural/mvc.js)
 - [Hierarchical Model–View–Controller (HMVC)](./architectural/hmvc.js)
+- [Dependency Injection](./architectural/dependency-injection.js)
