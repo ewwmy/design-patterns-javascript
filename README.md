@@ -44,3 +44,4 @@
 - [Hierarchical Model–View–Controller (HMVC)](./architectural/hmvc.js)
 - [Dependency Injection](./architectural/dependency-injection.js)
   - [Extended example](./architectural/dependency-injection-extended.js)
+  - [Extended example + IoC](./architectural/dependency-injection-extended-ioc.js)
