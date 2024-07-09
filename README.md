@@ -37,3 +37,11 @@
 - [Strategy](./behavioral/strategy.js)
   - [Example](./behavioral/strategy-example.js)
 - [Template Method](./behavioral/template-method.js)
+
+## Architectural
+
+- [Model-View-Controller (MVC)](./architectural/mvc.js)
+- [Hierarchical Model–View–Controller (HMVC)](./architectural/hmvc.js)
+- [Dependency Injection](./architectural/dependency-injection.js)
+  - [Extended example](./architectural/dependency-injection-extended.js)
+  - [Extended example + IoC](./architectural/dependency-injection-extended-ioc.js)
