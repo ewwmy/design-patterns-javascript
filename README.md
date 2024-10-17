@@ -24,6 +24,9 @@
 - [Decorator](./structural/decorator.js)
 - [Facade](./structural/facade.js)
 - [Flyweight](./structural/flyweight.js)
+- [Composite](./structural/composite.js)
+  - [Simple example](./structural/composite-simple.js)
+  - [Extended example](./structural/composite-extended.js)
 
 ## Behavioral
 
