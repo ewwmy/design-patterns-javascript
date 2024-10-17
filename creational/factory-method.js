@@ -22,29 +22,29 @@ class ConcreteProductB extends Product {
   }
 }
 
-class Creator {
+class Factory {
   createProduct() {
     throw new Error('This method should be overridden')
   }
 }
 
-class ConcreteCreatorA extends Creator {
+class ConcreteFactoryA extends Factory {
   createProduct() {
       return new ConcreteProductA()
   }
 }
 
-class ConcreteCreatorB extends Creator {
+class ConcreteFactoryB extends Factory {
   createProduct() {
       return new ConcreteProductB()
   }
 }
 
-const creators = [ new ConcreteCreatorA(), new ConcreteCreatorB() ]
+const factories = [ new ConcreteFactoryA(), new ConcreteFactoryB() ]
 const products = []
 
-for (let creator of creators) {
-  products.push(creator.createProduct().getName())
+for (let factory of factories) {
+  products.push(factory.createProduct().getName())
 }
 
 console.log(products) // [ 'ProductA', 'ProductB' ]
