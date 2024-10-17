@@ -8,6 +8,7 @@
   - [Dynamic example](./creational/factory-method-dynamic.js)
 - [Abstract Factory](./creational/abstract-factory.js)
   - [Example](./creational/abstract-factory-example.js)
+- [Prototype](./creational/prototype.js)
 - [Builder](./creational/builder.js)
   - [Extended example](./creational/builder-extended.js)
 
