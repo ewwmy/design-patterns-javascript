@@ -56,3 +56,12 @@ delayedTelegramNotification.sendNotification('Delayed notification from Telegram
 
 const delayedWhatsAppNotification = new DelayedNotification(whatsAppSender)
 delayedWhatsAppNotification.sendNotification('Delayed notification from WhatsApp')
+
+// Instant notification has been sent
+// Sending notification in Telegram: "Hello from Telegram!"
+// Instant notification has been sent
+// Sending notification in WhatsApp: "Hello from WhatsApp!"
+// Delayed notification will be sent in 5 seconds...
+// Delayed notification will be sent in 5 seconds...
+// Sending notification in Telegram: "Delayed notification from Telegram"
+// Sending notification in WhatsApp: "Delayed notification from WhatsApp"
