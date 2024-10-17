@@ -17,12 +17,16 @@
 - Adapter
   - [Adapt **old feature** to the **new interface**](./structural/adapter.js)
   - [Adapt **new feature** to the **old interface**](./structural/adapter-reverse.js)
+- [Bridge](./structural/bridge.js)
 - [Proxy](./structural/proxy.js)
   - [Extended example](./structural/proxy-extended.js)
   - [Built-in `Proxy` Class](./structural/proxy-builtin.js)
 - [Decorator](./structural/decorator.js)
 - [Facade](./structural/facade.js)
 - [Flyweight](./structural/flyweight.js)
+- [Composite](./structural/composite.js)
+  - [Simple example](./structural/composite-simple.js)
+  - [Extended example](./structural/composite-extended.js)
 
 ## Behavioral
 
