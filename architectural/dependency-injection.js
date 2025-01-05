@@ -1,7 +1,7 @@
 /**
- * Dependency Injection (DI) is a pattern where an object's 
- * dependencies are provided by an external source, rather 
- * than the object creating them itself. This promotes loose 
+ * Dependency Injection (DI) is a pattern where an object's
+ * dependencies are provided by an external source, rather
+ * than the object creating them itself. This promotes loose
  * coupling and makes the code easier to test and maintain.
  */
 
@@ -17,8 +17,8 @@ class UserService {
   }
 
   createUser(user) {
-    this.logger.log(`User created: "${user.name}"`)
     // additional user creation logic could be here
+    this.logger.log(`User created: "${user.name}"`)
   }
 }
 
