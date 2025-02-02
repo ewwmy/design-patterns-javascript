@@ -34,7 +34,7 @@ class UserService extends UserServiceInterface {
 }
 
 // IoC container
-class ServiceProvider {
+class Container {
   constructor() {
     this.services = new Map()
   }
@@ -74,20 +74,18 @@ class ServiceProvider {
 }
 
 // create an instance of the IoC container
-const serviceProvider = new ServiceProvider()
+const container = new Container()
 
 // register Logger as a dependency
-serviceProvider.register('Logger', Logger)
+container.register('Logger', Logger)
 
 // register UserService as a dependency, specifying its dependency on Logger
-serviceProvider.register(
-  'UserServiceInterface',
-  UserService,
-  ['Logger'],
-)
+container.register('UserServiceInterface', UserService, [
+  'Logger',
+])
 
 // resolve the UserServiceInterface dependency
-const userService = serviceProvider.resolve(
+const userService = container.resolve(
   'UserServiceInterface',
 )
 
