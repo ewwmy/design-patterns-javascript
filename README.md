@@ -51,6 +51,5 @@
 - [Hierarchical Model-View-Controller (HMVC)](./architectural/hmvc.js)
 - [Model-Repository-Service-Controller](./architectural/mrsc.js)
 - [Dependency Injection](./architectural/dependency-injection.js)
-  - [Extended example](./architectural/dependency-injection-extended.js)
-  - [Extended example + IoC](./architectural/dependency-injection-extended-ioc.js)
+  - [IoC Container](./architectural/dependency-injection-ioc-container.js)
 - [Command Query Responsibility Segregation (CQRS)](./architectural/cqrs.js)
