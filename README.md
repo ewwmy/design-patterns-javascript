@@ -41,6 +41,7 @@
 - [Observer](./behavioral/observer.js)
   - [Example](./behavioral/observer-example.js)
 - [State](./behavioral/state.js)
+  - [Extended example](./behavioral/state-extended.js)
 - [Strategy](./behavioral/strategy.js)
   - [Example](./behavioral/strategy-example.js)
 - [Template Method](./behavioral/template-method.js)
