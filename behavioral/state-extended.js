@@ -9,7 +9,7 @@
 class State {
   context = null
 
-  handle(context) {
+  handle() {
     throw new Error('This method should be overridden')
   }
 }
