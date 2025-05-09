@@ -9,6 +9,10 @@
 class State {
   context = null
 
+  setContext(context) {
+    this.context = context
+  }
+
   handle() {
     throw new Error('This method should be overridden')
   }
@@ -51,7 +55,7 @@ class Context {
   setState(state) {
     console.log(`Changing state to: "${state.name}"`)
     this.state = state
-    this.state.context = this
+    this.state.setContext(this)
   }
 
   request() {
